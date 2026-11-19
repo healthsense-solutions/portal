@@ -215,10 +215,12 @@ function PortalSidebar({
   return (
     <Sidebar collapsible="icon" className="border-sidebar-border bg-sidebar">
       <SidebarHeader className="border-b border-sidebar-border/60 px-4 py-4">
-        <a className="flex items-center gap-3 overflow-hidden no-underline" href="../" aria-label="JeevDristi website">
-          <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground shadow-sm">
-            <ShieldCheckIcon className="size-5" weight="fill" />
-          </span>
+        <a className="flex items-center gap-3 overflow-hidden no-underline" href="../" aria-label="HealthSense website">
+          <img
+            src="/healthsense_icon.png"
+            alt="HealthSense"
+            className="size-8 shrink-0 rounded-lg object-contain shadow-sm"
+          />
           <div className="flex flex-col group-data-[collapsible=icon]:hidden">
             <span className="font-heading text-sm font-bold tracking-tight text-sidebar-foreground">
               JeevDristi

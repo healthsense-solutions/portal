@@ -1,4 +1,3 @@
-import { ShieldCheckIcon } from '@phosphor-icons/react'
 import { useLanguage } from '@/lib/i18n'
 
 export function Brand({ inverted = false }: { inverted?: boolean }) {
@@ -6,9 +5,11 @@ export function Brand({ inverted = false }: { inverted?: boolean }) {
 
   return (
     <div className="flex shrink-0 items-center gap-2.5 select-none whitespace-nowrap">
-      <span className={`grid size-8 shrink-0 place-items-center rounded-lg ${inverted ? 'bg-white/10 text-white' : 'bg-primary/10 text-primary'}`}>
-        <ShieldCheckIcon className="size-5" weight="fill" />
-      </span>
+      <img
+        src="/healthsense_icon.png"
+        alt="HealthSense"
+        className="size-8 shrink-0 rounded-lg object-contain"
+      />
       <div className="flex flex-col shrink-0 whitespace-nowrap leading-none">
         <span className={`font-heading text-lg font-bold tracking-tight whitespace-nowrap ${inverted ? 'text-white' : 'text-foreground'}`}>
           {t.brand.title}

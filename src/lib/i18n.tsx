@@ -47,7 +47,7 @@ export const translations = {
       language: 'Language',
     },
     hero: {
-      badge: 'IIT Bhilai Medical Innovation • SickleSense POCT',
+      badge: 'HealthSense Solutions • SickleSense POCT',
       headingLine1: 'Clarity at the',
       headingLine2: 'point of care.',
       description:
@@ -56,7 +56,7 @@ export const translations = {
         version ? `Download Android App (v${version})` : 'Download Android App',
       downloadPreparing: 'Preparing Download...',
       openPortal: 'Open Web Portal',
-      chipHardware: 'IIT Bhilai Optical Unit',
+      chipHardware: 'HealthSense Optical Unit',
       chipSoftware: 'JeevDristi Offline Companion',
       chipDock: 'Calibrated Cartridge Dock',
       highlights: {
@@ -77,12 +77,12 @@ export const translations = {
         'Explore the physical optical unit, companion application, medical enclosure, and diagnostic reporting engineered for field reliability.',
       cards: {
         prototype: {
-          badge: 'IIT Bhilai Unit',
-          title: 'Prototype Focus',
-          subtitle: 'Celebrating Innovation: Functional Prototype',
+          badge: 'HealthSense Optical Box',
+          title: 'Precision Optics Focus',
+          subtitle: 'Validated Diagnostics: Optical Unit',
           description:
-            'Lab-tested optical unit engineered at IIT Bhilai, pairing precision LED illumination with a dedicated companion stand for real-time sample processing.',
-          highlights: ['Micro-optical stage', 'IIT Bhilai seal & calibrated dock', 'Live companion synchronization'],
+            'Precision optical unit engineered by HealthSense Solutions, pairing calibrated LED illumination with a dedicated companion stand for real-time sample processing.',
+          highlights: ['Micro-optical stage', 'HealthSense calibrated dock', 'Live companion synchronization'],
         },
         app: {
           badge: 'Android Companion',
@@ -94,11 +94,11 @@ export const translations = {
         },
         medical: {
           badge: 'Production Target',
-          title: 'Final Product Concept - Medical Grade',
-          subtitle: 'Future Ready: Production Grade Materials',
+          title: 'Medical Grade Enclosure',
+          subtitle: 'Field Ready: Production Grade Materials',
           description:
-            'Next-generation clinical enclosure designed to IBITF medical standards, featuring light-shielded cartridge insertion and durable, sterilizable field housing.',
-          highlights: ['IBITF institutional design', 'Light-shielded sample chamber', 'Ultra-rugged clinical durability'],
+            'Next-generation clinical enclosure manufactured to strict medical standards, featuring light-shielded cartridge insertion and durable, sterilizable field housing.',
+          highlights: ['HealthSense medical design', 'Light-shielded sample chamber', 'Ultra-rugged clinical durability'],
         },
         analytics: {
           badge: 'AI Diagnostics',
@@ -155,8 +155,8 @@ export const translations = {
           tag: 'Engineering',
           title: 'Medical Grade Reliability',
           description:
-            'Engineered with rigorous quality standards at IIT Bhilai. Calibrated optics, precision manufacturing, and validated diagnostic workflows.',
-          highlights: ['Institutional quality standards', 'Consistent optical response', 'Field-tested durability'],
+            'Engineered with rigorous quality standards by HealthSense Solutions. Calibrated optics, precision manufacturing, and validated diagnostic workflows.',
+          highlights: ['Medical-grade quality standards', 'Consistent optical response', 'Field-tested durability'],
         },
       ],
     },
@@ -234,11 +234,11 @@ export const translations = {
           { label: 'Battery Life', value: 'All-day mobile screening capable' },
           { label: 'Environment', value: 'Designed for tropical field clinics' },
         ],
-        strip1Badge: 'Prototype Stage',
-        strip1Title: 'IIT Bhilai Optical Unit',
-        strip1Desc: 'Lab-validated functional prototype with calibrated light chamber.',
-        strip2Badge: 'Production Target',
-        strip2Title: 'IBITF Medical Enclosure',
+        strip1Badge: 'Diagnostic Core',
+        strip1Title: 'HealthSense Optical Box',
+        strip1Desc: 'Clinical-grade optical chamber with calibrated solid-state light path.',
+        strip2Badge: 'Field Ready',
+        strip2Title: 'Medical Enclosure',
         strip2Desc: 'Sterilizable polymer body designed for field clinic deployment.',
       },
       app: {
@@ -356,22 +356,22 @@ export const translations = {
       cardSupport: {
         title: 'Support & Portal',
         desc: 'Connect phone via WebUSB to review clinical results, preview data, and access user guides.',
-        instLabel: 'Institution:',
-        instVal: 'IIT Bhilai POCT',
+        instLabel: 'Organization:',
+        instVal: 'HealthSense Solutions Pvt. Ltd.',
         portalLabel: 'Portal:',
         portalVal: 'Direct WebUSB',
         assistLabel: 'Assistance:',
-        assistVal: 'Research Team',
+        assistVal: 'Product Support',
         btn: 'Launch Web Portal',
       },
     },
     footer: {
       about:
-        'A point-of-care medical diagnostics and computer vision innovation project developed at the Indian Institute of Technology Bhilai (IIT Bhilai).',
+        'Point-of-care medical diagnostics and AI morphology systems by HealthSense Solutions Pvt. Ltd. (incubated at IIT Bhilai / IBITF with AIIMS Raipur clinical collaboration).',
       navTop: 'Top',
       privacy: 'Privacy policy',
       deletion: 'Request account deletion',
-      rights: (year: number) => `© ${year} IIT Bhilai POCT Project. All rights reserved.`,
+      rights: (year: number) => `© ${year} HealthSense Solutions Pvt. Ltd. All rights reserved.`,
       status: 'All Systems Operational • Offline-First Ready',
     },
   },
@@ -392,7 +392,7 @@ export const translations = {
       language: 'भाषा',
     },
     hero: {
-      badge: 'आईआईटी भिलाई चिकित्सा नवाचार • सिकलसेंस पीओसीटी',
+      badge: 'हेल्थसेंस सॉल्यूशंस • सिकलसेंस पीओसीटी',
       headingLine1: 'जाँच स्थल पर',
       headingLine2: 'सटीक स्पष्टता।',
       description:
@@ -401,7 +401,7 @@ export const translations = {
         version ? `एंड्रॉइड ऐप डाउनलोड करें (v${version})` : 'एंड्रॉइड ऐप डाउनलोड करें',
       downloadPreparing: 'डाउनलोड तैयार हो रहा है...',
       openPortal: 'वेब पोर्टल खोलें',
-      chipHardware: 'आईआईटी भिलाई ऑप्टिकल यूनिट',
+      chipHardware: 'हेल्थसेंस ऑप्टिकल यूनिट',
       chipSoftware: 'जीवदृष्टि ऑफलाइन साथी ऐप',
       chipDock: 'कैलिब्रेटेड कार्ट्रिज डॉक',
       highlights: {
@@ -422,12 +422,12 @@ export const translations = {
         'मैदानी विश्वसनीयता के लिए विशेष रूप से डिज़ाइन की गई ऑप्टिकल यूनिट, मोबाइल ऐप, मेडिकल एनक्लोज़र और डायग्नोस्टिक रिपोर्टिंग की विस्तृत जानकारी।',
       cards: {
         prototype: {
-          badge: 'आईआईटी भिलाई यूनिट',
-          title: 'प्रोटोटाइप फ़ोकस',
-          subtitle: 'नवाचार का उत्सव: कार्यात्मक प्रोटोटाइप',
+          badge: 'हेल्थसेंस ऑप्टिकल बॉक्स',
+          title: 'सटीक ऑप्टिक्स फ़ोकस',
+          subtitle: 'प्रमाणित डायग्नोस्टिक्स: ऑप्टिकल यूनिट',
           description:
-            'आईआईटी भिलाई में विकसित प्रयोगशाला-परीक्षित ऑप्टिकल यूनिट, जो सटीक एलईडी रोशनी और रियल-टाइम नमूना प्रसंस्करण के लिए समर्पित स्टैंड प्रदान करती है।',
-          highlights: ['माइक्रो-ऑप्टिकल स्टेज', 'आईआईटी भिलाई सील एवं कैलिब्रेटेड डॉक', 'लाइव साथी सिंक्रोनाइज़ेशन'],
+            'हेल्थसेंस सॉल्यूशंस द्वारा विकसित सटीक ऑप्टिकल यूनिट, जो कैलिब्रेटेड एलईडी रोशनी और रियल-टाइम नमूना प्रसंस्करण के लिए समर्पित स्टैंड प्रदान करती है।',
+          highlights: ['माइक्रो-ऑप्टिकल स्टेज', 'हेल्थसेंस सील एवं कैलिब्रेटेड डॉक', 'लाइव साथी सिंक्रोनाइज़ेशन'],
         },
         app: {
           badge: 'एंड्रॉइड साथी ऐप',
@@ -500,7 +500,7 @@ export const translations = {
           tag: 'इंजीनियरिंग',
           title: 'मेडिकल-ग्रेड विश्वसनीयता',
           description:
-            'आईआईटी भिलाई में कड़े गुणवत्ता मानकों के साथ विकसित। कैलिब्रेटेड ऑप्टिक्स, सटीक विनिर्माण और प्रमाणित वर्कफ़्लो।',
+            'हेल्थसेंस सॉल्यूशंस द्वारा कड़े गुणवत्ता मानकों के साथ विकसित। कैलिब्रेटेड ऑप्टिक्स, सटीक विनिर्माण और प्रमाणित वर्कफ़्लो।',
           highlights: ['संस्थागत गुणवत्ता मानक', 'समान ऑप्टिकल परिणाम', 'मैदानी परीक्षणों में प्रमाणित मजबूती'],
         },
       ],
@@ -579,11 +579,11 @@ export const translations = {
           { label: 'बैटरी बैकअप', value: 'दिनभर मोबाइल स्क्रीनिंग हेतु सक्षम' },
           { label: 'पर्यावरण', value: 'उष्णकटिबंधीय फील्ड क्लीनिकों हेतु अनुकूलित' },
         ],
-        strip1Badge: 'प्रोटोटाइप चरण',
-        strip1Title: 'आईआईटी भिलाई ऑप्टिकल यूनिट',
-        strip1Desc: 'कैलिब्रेटेड लाइट चैंबर के साथ प्रयोगशाला-प्रमाणित कार्यात्मक प्रोटोटाइप।',
-        strip2Badge: 'उत्पादन लक्ष्य',
-        strip2Title: 'आईबीआईटीएफ मेडिकल एनक्लोज़र',
+        strip1Badge: 'डायग्नोस्टिक कोर',
+        strip1Title: 'हेल्थसेंस ऑप्टिकल बॉक्स',
+        strip1Desc: 'कैलिब्रेटेड लाइट चैंबर के साथ क्लिनिकल-ग्रेड ऑप्टिकल यूनिट।',
+        strip2Badge: 'फ़ील्ड रेडी',
+        strip2Title: 'मेडिकल एनक्लोज़र',
         strip2Desc: 'फील्ड क्लीनिकों में तैनाती के लिए डिज़ाइन किया गया स्टेरलाइज़ेबल पॉलीमर केस।',
       },
       app: {
@@ -701,22 +701,22 @@ export const translations = {
       cardSupport: {
         title: 'सहायता एवं पोर्टल',
         desc: 'नैदानिक परिणाम देखने, डेटा का पूर्वावलोकन करने और उपयोगकर्ता गाइड प्राप्त करने हेतु फ़ोन कनेक्ट करें।',
-        instLabel: 'संस्थान:',
-        instVal: 'आईआईटी भिलाई पीओसीटी',
+        instLabel: 'संस्था:',
+        instVal: 'हेल्थसेंस सॉल्यूशंस प्रा. लि.',
         portalLabel: 'पोर्टल:',
         portalVal: 'डायरेक्ट वेब-यूएसबी',
         assistLabel: 'सहायता:',
-        assistVal: 'अनुसंधान दल',
+        assistVal: 'उत्पाद सहायता',
         btn: 'वेब पोर्टल शुरू करें',
       },
     },
     footer: {
       about:
-        'भारतीय प्रौद्योगिकी संस्थान भिलाई (आईआईटी भिलाई) में विकसित एक पॉइंट-ऑफ-केयर मेडिकल डायग्नोस्टिक्स एवं कंप्यूटर विज़न नवाचार परियोजना।',
+        'हेल्थसेंस सॉल्यूशंस प्राइवेट लिमिटेड द्वारा विकसित पॉइंट-ऑफ-केयर मेडिकल डायग्नोस्टिक्स एवं एआई सेल आकारिकी प्रणाली (आईआईटी भिलाई / आईबीआईटीएफ में इंक्यूबेटेड एवं एम्स रायपुर के सहयोग से चिकित्सकीय परीक्षण)।',
       navTop: 'शीर्ष पर जाएँ',
       privacy: 'गोपनीयता नीति',
       deletion: 'खाता हटाने का अनुरोध',
-      rights: (year: number) => `© ${year} आईआईटी भिलाई पीओसीटी परियोजना। सर्वाधिकार सुरक्षित।`,
+      rights: (year: number) => `© ${year} हेल्थसेंस सॉल्यूशंस प्राइवेट लिमिटेड। सर्वाधिकार सुरक्षित।`,
       status: 'सभी प्रणालियाँ सक्रिय • 100% ऑफलाइन तैयार',
     },
   },

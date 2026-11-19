@@ -1,6 +1,7 @@
-# JeevDristi POCT Website
+# SickleSense & JeevDristi Website
 
-Public marketing and download website for the IIT Bhilai JeevDristi point-of-care testing project.
+Public marketing and download website for HealthSense Solutions Pvt. Ltd., featuring
+SickleSense and JeevDristi point-of-care testing systems (incubated at IIT Bhilai / IBITF).
 
 ## Development
 
@@ -20,9 +21,9 @@ bun run build
 ## Deployment
 
 Pushes to `main` build the Vite application and deploy `dist/` to GitHub Pages at
-<https://doc-poct.github.io/sicklesense/>.
+<https://healthsense-solutions.github.io/sicklesense/>.
 
-APK and device-image links point to the public [`poct_fw_app_releases`](https://github.com/doc-poct/poct_fw_app_releases/releases) repository.
+APK and device-image links point to the public [`poct_fw_app_releases`](https://github.com/healthsense-solutions/poct_fw_app_releases/releases) repository.
 
 The separate **Phone Results** dashboard is served at `/sicklesense/webportal/`
 and uses WebUSB directly in supported HTTPS browsers. It provides the secure
@@ -64,7 +65,7 @@ another server.
 
 The static, public policy and account deletion request instructions are in
 `public/privacy.html`, linked from the bilingual site footer and Phone Results portal. After deployment its URL is
-<https://doc-poct.github.io/sicklesense/privacy.html>; the deletion section is
+<https://healthsense-solutions.github.io/sicklesense/privacy.html>; the deletion section is
 `privacy.html#account-deletion`. Keep this copy synchronized with
 `../poct_app_flutter/PRIVACY.md`. This policy covers the Authentication-only
 app version; verify the URL and release behavior before entering it in stores.

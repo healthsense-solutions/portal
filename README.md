@@ -1,7 +1,7 @@
-# SickleSense & JeevDristi Website
+# HealthSense Portal — SickleSense & JeevDristi Web Platform
 
-Public marketing and download website for HealthSense Solutions Pvt. Ltd., featuring
-SickleSense and JeevDristi point-of-care testing systems (incubated at IIT Bhilai / IBITF).
+Public marketing, diagnostics web platform, and phone export portal for HealthSense Solutions Pvt. Ltd.,
+featuring SickleSense and JeevDristi point-of-care testing systems (incubated at IIT Bhilai / IBITF).
 
 ## Development
 
@@ -21,11 +21,11 @@ bun run build
 ## Deployment
 
 Pushes to `main` build the Vite application and deploy `dist/` to GitHub Pages at
-<https://healthsense-solutions.github.io/sicklesense/>.
+<https://healthsense-solutions.github.io/portal/>.
 
-APK and device-image links point to the public [`poct_fw_app_releases`](https://github.com/healthsense-solutions/poct_fw_app_releases/releases) repository.
+APK and device-image links point to the public [`releases`](https://github.com/healthsense-solutions/releases/releases) repository.
 
-The separate **Phone Results** dashboard is served at `/sicklesense/webportal/`
+The separate **Phone Results** dashboard is served at `/portal/webportal/` (or `/webportal/`)
 and uses WebUSB directly in supported HTTPS browsers. It provides the secure
 phone connection, completed-result search, artifact preview, and verified ZIP
 export workflow.
@@ -65,7 +65,7 @@ another server.
 
 The static, public policy and account deletion request instructions are in
 `public/privacy.html`, linked from the bilingual site footer and Phone Results portal. After deployment its URL is
-<https://healthsense-solutions.github.io/sicklesense/privacy.html>; the deletion section is
+<https://healthsense-solutions.github.io/portal/privacy.html>; the deletion section is
 `privacy.html#account-deletion`. Keep this copy synchronized with
 `../poct_app_flutter/PRIVACY.md`. This policy covers the Authentication-only
 app version; verify the URL and release behavior before entering it in stores.

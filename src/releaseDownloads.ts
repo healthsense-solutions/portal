@@ -1,4 +1,4 @@
-const RELEASES_API_URL = 'https://api.github.com/repos/healthsense-solutions/poct_fw_app_releases/releases?per_page=100'
+const RELEASES_API_URL = 'https://api.github.com/repos/healthsense-solutions/releases/releases?per_page=100'
 const CACHE_KEY = 'jeevdristi-release-downloads-v7'
 const RETRY_KEY = 'jeevdristi-release-downloads-retry-at'
 const CACHE_TTL_MS = 60 * 60 * 1000
@@ -31,23 +31,23 @@ type CachedReleaseDownloads = {
   etag: string | null
 }
 
-export const RELEASES_PAGE_URL = 'https://github.com/healthsense-solutions/poct_fw_app_releases/releases'
+export const RELEASES_PAGE_URL = 'https://github.com/healthsense-solutions/releases/releases'
 
 const FALLBACK_DOWNLOADS: ReleaseDownloads = {
   apk: {
-    url: 'https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/app-v1.7.7%2B10707999/JeevDristi-1.7.7-release.apk',
+    url: 'https://github.com/healthsense-solutions/releases/releases/download/app-v1.7.7%2B10707999/JeevDristi-1.7.7-release.apk',
     version: '1.7.7',
   },
   zero2wImage: {
-    url: 'https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/firmware-v2.1.10/poct-2.1.10-dietpi-zero2w-arm64-ab.img.xz',
+    url: 'https://github.com/healthsense-solutions/releases/releases/download/firmware-v2.1.10/poct-2.1.10-dietpi-zero2w-arm64-ab.img.xz',
     version: '2.1.10',
   },
   scdTerminalImage: {
-    url: 'https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-dietpi-rpi5-arm64.img.xz',
+    url: 'https://github.com/healthsense-solutions/releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-dietpi-rpi5-arm64.img.xz',
     version: '0.1.0',
   },
   scdTerminalWindowsExe: {
-    url: 'https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-windows-x64-setup.exe',
+    url: 'https://github.com/healthsense-solutions/releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-windows-x64-setup.exe',
     version: '0.1.0',
   },
 }

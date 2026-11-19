@@ -41,15 +41,15 @@ test('fetchLatestStableDownloads parses app, zero2w, and scd-terminal releases',
       assets: [
         {
           name: 'poct-scd-terminal-0.1.0-dietpi-rpi5-arm64.img.xz',
-          browser_download_url: 'https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-dietpi-rpi5-arm64.img.xz',
+          browser_download_url: 'https://github.com/healthsense-solutions/releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-dietpi-rpi5-arm64.img.xz',
         },
         {
           name: 'poct_scd_terminal-0.1.0-aarch64.tar.gz',
-          browser_download_url: 'https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/scd-terminal-v0.1.0/poct_scd_terminal-0.1.0-aarch64.tar.gz',
+          browser_download_url: 'https://github.com/healthsense-solutions/releases/releases/download/scd-terminal-v0.1.0/poct_scd_terminal-0.1.0-aarch64.tar.gz',
         },
         {
           name: 'poct-scd-terminal-0.1.0-windows-x64-setup.exe',
-          browser_download_url: 'https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-windows-x64-setup.exe',
+          browser_download_url: 'https://github.com/healthsense-solutions/releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-windows-x64-setup.exe',
         },
       ],
     },
@@ -60,7 +60,7 @@ test('fetchLatestStableDownloads parses app, zero2w, and scd-terminal releases',
       assets: [
         {
           name: 'poct-2.2.0-dietpi-zero2w-arm64-ab.img.xz',
-          browser_download_url: 'https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/firmware-v2.2.0/poct-2.2.0-dietpi-zero2w-arm64-ab.img.xz',
+          browser_download_url: 'https://github.com/healthsense-solutions/releases/releases/download/firmware-v2.2.0/poct-2.2.0-dietpi-zero2w-arm64-ab.img.xz',
         },
       ],
     },
@@ -71,7 +71,7 @@ test('fetchLatestStableDownloads parses app, zero2w, and scd-terminal releases',
       assets: [
         {
           name: 'JeevDristi-1.8.0-release.apk',
-          browser_download_url: 'https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/app-v1.8.0%2B10800999/JeevDristi-1.8.0-release.apk',
+          browser_download_url: 'https://github.com/healthsense-solutions/releases/releases/download/app-v1.8.0%2B10800999/JeevDristi-1.8.0-release.apk',
         },
       ],
     },
@@ -99,16 +99,16 @@ test('fetchLatestStableDownloads parses app, zero2w, and scd-terminal releases',
   try {
     const result = await fetchLatestStableDownloads()
     expect(result.apk?.version).toBe('1.8.0')
-    expect(result.apk?.url).toBe('https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/app-v1.8.0%2B10800999/JeevDristi-1.8.0-release.apk')
+    expect(result.apk?.url).toBe('https://github.com/healthsense-solutions/releases/releases/download/app-v1.8.0%2B10800999/JeevDristi-1.8.0-release.apk')
 
     expect(result.zero2wImage?.version).toBe('2.2.0')
-    expect(result.zero2wImage?.url).toBe('https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/firmware-v2.2.0/poct-2.2.0-dietpi-zero2w-arm64-ab.img.xz')
+    expect(result.zero2wImage?.url).toBe('https://github.com/healthsense-solutions/releases/releases/download/firmware-v2.2.0/poct-2.2.0-dietpi-zero2w-arm64-ab.img.xz')
 
     expect(result.scdTerminalImage?.version).toBe('0.1.0')
-    expect(result.scdTerminalImage?.url).toBe('https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-dietpi-rpi5-arm64.img.xz')
+    expect(result.scdTerminalImage?.url).toBe('https://github.com/healthsense-solutions/releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-dietpi-rpi5-arm64.img.xz')
 
     expect(result.scdTerminalWindowsExe?.version).toBe('0.1.0')
-    expect(result.scdTerminalWindowsExe?.url).toBe('https://github.com/healthsense-solutions/poct_fw_app_releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-windows-x64-setup.exe')
+    expect(result.scdTerminalWindowsExe?.url).toBe('https://github.com/healthsense-solutions/releases/releases/download/scd-terminal-v0.1.0/poct-scd-terminal-0.1.0-windows-x64-setup.exe')
 
     expect(storage.get('jeevdristi-release-downloads-v7')).toContain('"0.1.0"')
     expect(shouldRefreshReleaseDownloads()).toBe(false)
